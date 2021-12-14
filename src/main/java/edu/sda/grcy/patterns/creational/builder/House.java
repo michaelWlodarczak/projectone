@@ -17,7 +17,9 @@ public class House {
         this.garden = builder.garden;
     }
 
-    public String getHouseInfo(){ // dedykowana metoda do uzyskania informacji zamiast toString - poniewaz toString nie powinien sluzyc klientowi tylko programiscie, np. do uzyskiwania logow
+    // dedykowana metoda do uzyskania informacji zamiast toString
+    // - poniewaz toString nie powinien sluzyc klientowi tylko programiscie, np. do uzyskiwania logow
+    public String getHouseInfo(){
         return "\nHouse: \n\tbasement - " + basement +
                 "\n\twalls - " + walls +
                 "\n\troof - " + roof +
@@ -41,10 +43,12 @@ public class House {
             this.garage = "";
             this.garden = "";
         }
+
         public HouseBuilder withGarage(String garage){
             this.garage = garage;
             return this;
         }
+
         public HouseBuilder withGarden(String garden){
             this.garden = garden;
             return this;

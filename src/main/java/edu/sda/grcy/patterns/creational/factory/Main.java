@@ -9,7 +9,7 @@ public class Main {
 
         Problem jest taki, ze operator "new" nie powinien byc naduzywany
         i nie powinien byc uzywany przez wszystkich bo tak pasuje, bo trzeba nowy obiekt,
-        powinnismy go schowactak zeby nie uzywal go kazdy i zawsze,
+        powinnismy go schowac tak zeby nie uzywal go kazdy i zawsze,
         Normalny uzytkownik powinien raczej uzywac metod dedykowanych do tworzenia obiektu
          */
 
