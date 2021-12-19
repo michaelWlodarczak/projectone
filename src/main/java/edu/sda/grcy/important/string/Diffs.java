@@ -16,6 +16,8 @@ public class Diffs {
         StringBuilder napis2;
 
         StringBuffer napis3;
+
+        System.out.println(napis1);
     }
 
 }
