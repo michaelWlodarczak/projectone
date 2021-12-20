@@ -1,4 +1,4 @@
-package edu.sda.grcy.patterns2.decorator;
+package edu.sda.grcy.patterns2.structural.decorator;
 
 public class Tinsel extends TreeDecorator{
 

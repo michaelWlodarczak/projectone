@@ -20,7 +20,6 @@ public class Demo {
          * Problem: Klient (aplikacja ktora uzywa generatora raportow)
          * musi wykonac kilka krokow zanim dostanie to o co naprawde jej chodzi
          */
-
         ReportGeneratorFacade.generateReport(ReportGeneratorFacade.DBType.ORACLE,
                 ReportGeneratorFacade.ReportType.HTML,
                 table);
