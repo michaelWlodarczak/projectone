@@ -12,5 +12,4 @@ public class UpdateFileContentOperation implements Operation{
         System.out.println(getClass().getSimpleName() + " called for " + myFile.getFileName());
         return myFile.updateFile(content);
     }
-
 }
