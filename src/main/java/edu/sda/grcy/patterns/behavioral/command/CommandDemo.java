@@ -14,7 +14,7 @@ public class CommandDemo {
         executor.executeOperation(new UpdateFileContentOperation(myFile1),"xxxx");
         System.out.println(myFile1.getContent());
         krecha();
-//TODO - dokonczyc
+        //TODO - dokonczyc (??)
         MyFile file2 = new MyFile("file2.txt");
         executor.executeOperation(new UpdateFileContentOperation(file2),"Nowy plik, nowa zawartosc");
         System.out.println(file2.getContent());
